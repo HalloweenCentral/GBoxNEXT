@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/bg_corners_loading" android:padding="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="118dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <com.gbox.android.view.LoadingViewKit android:id="@+id/loading_view" android:layout_width="48dp" android:layout_height="48dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <TextView android:textSize="14sp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/tv_loading_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:includeFontPadding="false" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/loading_view"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

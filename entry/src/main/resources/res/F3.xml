@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/scan_parent_view" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/layout" android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextureView android:id="@+id/surfaceView" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <com.huawei.hms.scankit.ViewfinderView android:id="@+id/viewfinderView" android:layout_width="match_parent" android:layout_height="match_parent" android:textAllCaps="false" app:scankit_line_anim="false"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/scanLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:orientation="vertical" android:id="@+id/scankit_title_frame" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="2">
+            <RelativeLayout android:gravity="center_vertical" android:id="@+id/scan_title" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:id="@+id/back_layout" android:background="@drawable/scankit_appbar_pressed_selected" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:layout_marginStart="12dp" android:layout_alignParentStart="true">
+                    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@+id/back_img_in" android:clickable="false" android:layout_width="24dp" android:layout_height="24dp" android:layout_margin="12dp" android:src="@drawable/scankit_ic_back" android:contentDescription="@string/scankit_talkback_back"/>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/gallery_Layout" android:background="@drawable/scankit_appbar_pressed_selected" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:layout_marginEnd="12dp" android:layout_alignParentEnd="true">
+                    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@+id/img_btn" android:clickable="false" android:layout_width="24dp" android:layout_height="24dp" android:layout_margin="12dp" android:src="@drawable/scankit_ic_photo" android:contentDescription="@string/scankit_talkback_photo"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </FrameLayout>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/ivScan" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="3"/>
+        <FrameLayout android:id="@+id/flash_light_layout" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="2">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@+id/flash_light_ll" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:layout_gravity="center" android:id="@+id/ivFlash" android:visibility="visible" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginTop="24dp" android:src="@drawable/scankit_flash_selector" android:contentDescription="@string/scankit_light" style="@style/Scankit_OnClick"/>
+                    <TextView android:textSize="14sp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/flash_light_text" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/scankit_light" android:shadowColor="#4d000000" android:shadowRadius="4" android:textAllCaps="false" android:fontFamily="sans-serif"/>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <include layout="@layout/scankit_title_landscape"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/scan_title_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="80dp" android:layout_centerHorizontal="true" android:layout_marginStart="24dp" android:layout_marginEnd="24dp">
+        <TextView android:textSize="18sp" android:textColor="#ffffff" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@+id/title_scan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scankit_title_all" android:shadowColor="#4d000000" android:shadowRadius="4" android:layout_centerHorizontal="true" android:textAllCaps="false" android:fontFamily="sans-serif-medium"/>
+        <TextView android:textSize="14sp" android:textStyle="normal" android:textColor="#99ffffff" android:gravity="center_horizontal" android:id="@+id/title_scan_level_two" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/scankit_title_all_level_two" android:shadowColor="#4d000000" android:shadowRadius="4" android:layout_centerHorizontal="true" android:textAllCaps="false" android:layout_marginStart="24dp" android:layout_marginEnd="24dp"/>
+    </LinearLayout>
+</RelativeLayout>

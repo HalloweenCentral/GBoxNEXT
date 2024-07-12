@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="hiad_dismiss_dilaog">
+        <item quantity="one">Okno sa zatvorí o %1$s s.</item>
+        <item quantity="few">Okno sa zatvorí o %1$s s.</item>
+        <item quantity="many">Okno sa zatvorí o %1$s s.</item>
+        <item quantity="other">Okno sa zatvorí o %1$s s.</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item quantity="one">Zapamätať si výber %1$s d</item>
+        <item quantity="few">Zapamätať si výber %1$s d</item>
+        <item quantity="many">Zapamätať si výber %1$s d</item>
+        <item quantity="other">Zapamätať si výber %1$s d</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item quantity="one">%1$d s</item>
+        <item quantity="few">%1$d s</item>
+        <item quantity="many">%1$d s</item>
+        <item quantity="other">%1$d s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nové upozornenie</item>
+        <item quantity="few">%d nové upozornenia</item>
+        <item quantity="many">%d new notifications</item>
+        <item quantity="other">%d nových upozornení</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/album_list" android:paddingLeft="20dp" android:paddingRight="20dp" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="20dp" app:layout_constraintTop_toTopOf="0"/>
+    <FrameLayout android:id="@+id/image_list_container" android:background="@color/hh_001" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.gbox.android.view.LoadingLayoutKit android:layout_gravity="center" android:id="@+id/loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-50dp" android:text="@string/file_loading"/>
+</FrameLayout>

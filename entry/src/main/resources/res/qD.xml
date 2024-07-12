@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.luck.picture.lib.widget.SquareRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/ivPicture" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <com.luck.picture.lib.widget.MediumBoldTextView android:textSize="12sp" android:textColor="@color/ps_color_white" android:gravity="center" android:id="@+id/tvCheck" android:background="@drawable/ps_checkbox_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8dp" android:layout_alignParentEnd="true"/>
+    <View android:id="@+id/btnCheck" android:background="@color/ps_color_transparent" android:layout_width="45dp" android:layout_height="45dp" android:layout_alignParentEnd="true"/>
+    <com.luck.picture.lib.widget.MediumBoldTextView android:textSize="11sp" android:textColor="@color/ps_color_white" android:gravity="center_vertical" android:id="@+id/tv_duration" android:background="@drawable/ps_ic_shadow_bg" android:paddingLeft="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="00:00" android:drawableLeft="@drawable/ps_ic_audio" android:drawablePadding="5dp" android:layout_alignParentBottom="true"/>
+</com.luck.picture.lib.widget.SquareRelativeLayout>

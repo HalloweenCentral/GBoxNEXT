@@ -1,0 +1,17 @@
+{
+    "module": {
+        "abilities": [
+            {
+                "name": "MainAbility",
+                "label": "$string:app_name",
+                "type": "page",
+                "theme": "$ohos:style/Theme.AppTheme.NoActionBar",
+                "intent": {
+                    "action": "action.system.home"
+                }
+            }
+        ],
+        "permissions": [],
+        "metaData": []
+    }
+}

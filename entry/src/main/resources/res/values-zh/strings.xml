@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="crop_image_activity_no_permissions">正在取消，该操作未获得所需权限。</string>
+    <string name="crop_image_activity_title" />
+    <string name="crop_image_menu_crop">裁剪</string>
+    <string name="crop_image_menu_flip">翻转</string>
+    <string name="crop_image_menu_flip_horizontally">水平翻转</string>
+    <string name="crop_image_menu_flip_vertically">垂直翻转</string>
+    <string name="crop_image_menu_rotate_left">逆时针旋转</string>
+    <string name="crop_image_menu_rotate_right">旋转</string>
+    <string name="dtm_preview_control_button_description">退出预览,按钮,单指双击即可执行</string>
+    <string name="dtm_preview_dialog_button_confirm">退出</string>
+    <string name="dtm_preview_float_dialog_message">是否退出预览？</string>
+    <string name="dtm_preview_toast_failed">预览失败</string>
+    <string name="dtm_visual_control_button_description">退出可视化埋点,按钮,单指双击即可执行</string>
+    <string name="dtm_visual_dialog_button_cancel">取消</string>
+    <string name="dtm_visual_dialog_button_confirm">确定</string>
+    <string name="dtm_visual_dialog_message">是否退出连接？</string>
+    <string name="dtm_visual_toast_connect_failed">连接失败</string>
+    <string name="dtm_visual_toast_disconnect">连接已断开</string>
+    <string name="pick_image_intent_chooser_title">选择来源</string>
+    <string name="scankit_confirm">确认</string>
+    <string name="scankit_light">轻触照亮</string>
+    <string name="scankit_light_off">轻触关闭</string>
+    <string name="scankit_no_code_tip">图中未发现码</string>
+    <string name="scankit_scan_tip">将码放入取景框，即可自动扫描</string>
+    <string name="scankit_talkback_back">返回</string>
+    <string name="scankit_talkback_photo">图库</string>
+    <string name="scankit_title">扫码</string>
+    <string name="xpopup_cancel">取消</string>
+    <string name="xpopup_image_not_exist">图片不存在</string>
+    <string name="xpopup_ok">确定</string>
+    <string name="xpopup_save">保存</string>
+    <string name="xpopup_saved_to_gallery">已保存到相册</string>
+</resources>

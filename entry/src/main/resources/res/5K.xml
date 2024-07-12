@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.gbox.android.view.ToolbarKit android:id="@+id/back" android:layout_width="wrap_content" android:layout_height="@dimen/toolbar_height" android:src="@drawable/sic_toolbar_back" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <TextView android:textSize="@dimen/sp_14" android:textStyle="bold" android:textColor="@color/hh_007" android:gravity="center" android:id="@+id/title" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dip_24" android:includeFontPadding="false" app:layout_constraintTop_toBottomOf="@+id/back"/>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/unlock_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_40" app:layout_constraintTop_toBottomOf="@+id/title">
+        <com.gbox.android.view.ImageLockView android:id="@+id/pattern_lock" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintDimensionRatio="h,1:1" app:layout_constraintTop_toTopOf="0"/>
+        <com.gbox.android.view.LockEditText android:id="@+id/number_lock" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView android:textSize="@dimen/sp_12" android:textColor="@color/cs_004" android:gravity="center" android:id="@+id/error_tips" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16" android:includeFontPadding="false" app:layout_constraintTop_toBottomOf="@+id/unlock_layout"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

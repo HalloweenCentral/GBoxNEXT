@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lzf.easyfloat.widget.DefaultCloseView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingLeft="50dp" android:paddingRight="50dp" android:layout_width="match_parent" android:layout_height="110dp" android:paddingHorizontal="50dp" app:closeShapeType="0" app:inRangeColor="#99ff0000" app:normalColor="#99000000" app:zoomSize="4dp">
+    <TextView android:textSize="12sp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/tv_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24dp" android:text="@string/delete_floating_window" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    <ImageView android:id="@+id/iv_delete" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginBottom="6dp" android:src="@drawable/icon_delete_normal" android:layout_above="@+id/tv_delete" android:layout_centerHorizontal="true"/>
+</com.lzf.easyfloat.widget.DefaultCloseView>

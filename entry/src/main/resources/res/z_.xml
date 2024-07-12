@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_selected="true" android:drawable="@drawable/sic_arraw_down_green"/>
+    <item android:state_selected="false" android:drawable="@drawable/sic_add_green"/>
+    <item android:drawable="@drawable/sic_add_green"/>
+</selector>

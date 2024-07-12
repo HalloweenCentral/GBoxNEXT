@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4dp" android:elevation="4dp" app:cardBackgroundColor="@color/hh_001" app:cardCornerRadius="8dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <com.gbox.android.view.AlignMaxWidthLayout android:orientation="vertical" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@+id/tv_menu_shortcut" android:layout_width="match_parent" android:layout_marginTop="4dp" android:text="@string/label_create_shortcut" app:drawableStartCompat="@drawable/sic_menu_shortcut" style="@style/app_menu_item_text"/>
+            <TextView android:id="@+id/tv_menu_upgrade" android:layout_width="match_parent" android:text="@string/label_upgrade_app" app:drawableStartCompat="@drawable/sic_menu_upgrade" style="@style/app_menu_item_text"/>
+            <TextView android:gravity="center_vertical" android:id="@+id/tv_menu_app_details" android:visibility="gone" android:layout_width="match_parent" android:text="@string/authority_management" app:drawableStartCompat="@drawable/sic_menu_permission" style="@style/app_menu_item_text"/>
+            <TextView android:id="@+id/tv_menu_reset" android:visibility="gone" android:layout_width="match_parent" android:text="@string/reset" app:drawableStartCompat="@drawable/sic_menu_upgrade" style="@style/app_menu_item_text"/>
+            <TextView android:id="@+id/tv_menu_uninstall" android:layout_width="match_parent" android:text="@string/label_delete" app:drawableStartCompat="@drawable/sic_menu_uninstall" style="@style/app_menu_item_text"/>
+            <FrameLayout android:id="@+id/app_lock_line" android:background="@color/hh_002" android:layout_width="wrap_content" android:layout_height="1dp" android:layout_marginLeft="16dp" android:layout_marginTop="12dp" android:layout_marginRight="16dp"/>
+            <TextView android:id="@+id/tv_menu_fake_icon" android:layout_width="match_parent" android:text="@string/app_crossdressing" app:drawableStartCompat="@drawable/sic_menu_fake_icon" style="@style/app_menu_item_text"/>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/app_lock_container" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="12sp" android:textColor="@color/hh_007" android:id="@+id/app_lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_lock" android:layout_marginStart="@dimen/dp_16" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@+id/app_lock_status" app:layout_constraintHorizontal_bias="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+                <com.gbox.android.view.CheckBoxKit android:id="@+id/app_lock_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dp_16" app:buttonType="1" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.gbox.android.view.AlignMaxWidthLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

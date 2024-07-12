@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_4" android:layout_marginRight="@dimen/dp_4" android:layout_marginBottom="24dp">
+    <include android:id="@+id/layout_app_info" layout="@layout/item_app_clone_info"/>
+    <com.gbox.android.view.CheckBoxKit android:id="@+id/cb_app_checked" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="64dp" android:width="64dp" android:viewportWidth="64" android:viewportHeight="64">
+    <path android:fillColor="@drawable/$sic_fake_icon_weather__0" android:pathData="M0,0h64v64h-64z"/>
+    <path android:fillColor="#ffd02c" android:pathData="M44,25m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0"/>
+    <path android:fillColor="@drawable/$sic_fake_icon_weather__1" android:pathData="M12,37C12,42.523 16.477,47 22,47H43C47.971,47 52,42.971 52,38C52,33.029 47.926,29 42.955,29C43.526,22.665 38.386,17 32,17C26.247,17 21.525,21.417 21.041,27.045C15.968,27.528 12,31.801 12,37Z"/>
+</vector>

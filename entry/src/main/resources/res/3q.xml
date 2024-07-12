@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<account-authenticator xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:label="@string/whatsapp" android:icon="@mipmap/whatsapp_icon" android:accountType="@string/whatsapp_account_type" android:smallIcon="@mipmap/whatsapp_icon" android:accountPreferences="@xml/account_preferences_whatsapp"/>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/ps_dialog_shadow" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="16sp" android:textColor="@color/ps_color_ff572e" android:gravity="center" android:id="@+id/tvTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/ps_prompt"/>
+    <TextView android:textSize="15sp" android:textColor="#53575e" android:gravity="center" android:id="@+id/tv_content" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:layout_marginBottom="15dp" android:text="@string/ps_prompt_image_content" android:layout_below="@+id/tvTitle"/>
+    <View android:id="@+id/bottom_line" android:background="@color/ps_color_e" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_below="@+id/tv_content"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="45dp" android:layout_below="@+id/bottom_line">
+        <Button android:textColor="@color/ps_color_33" android:id="@+id/btn_cancel" android:background="@drawable/ps_btn_left_bottom_selector" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/ps_cancel" android:layout_weight="1"/>
+        <View android:background="@color/ps_color_e" android:layout_width="0.5dp" android:layout_height="match_parent"/>
+        <Button android:textColor="@color/ps_color_8D57FC" android:id="@+id/btn_commit" android:background="@drawable/ps_btn_right_bottom_selector" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/ps_confirm" android:layout_weight="1"/>
+    </LinearLayout>
+</RelativeLayout>

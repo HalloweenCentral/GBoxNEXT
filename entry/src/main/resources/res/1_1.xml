@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/goods_list_item_skeleton" android:paddingLeft="@dimen/dp_16" android:paddingRight="@dimen/dp_16" android:layout_width="120dp" android:layout_height="160dp" android:minHeight="@dimen/dip_56" android:layout_marginEnd="8dp"/>

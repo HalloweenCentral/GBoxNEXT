@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "ResponsiveLayoutItemAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "ResponsiveLayoutItemAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "grid_title_label",
+      "value": "标题"
+    },
+    {
+      "name": "tab_name",
+      "value": "页签"
+    }
+  ]
+}

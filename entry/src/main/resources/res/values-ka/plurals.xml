@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="hiad_dismiss_dilaog">
+        <item quantity="one">ვინდოუსი დაიხურება %1$s წამში.</item>
+        <item quantity="other">ვინდოუსი დაიხურება %1$s წამში.</item>
+    </plurals>
+    <plurals name="hiad_no_prompt_in_days">
+        <item quantity="one">დაიმახსოვრეთ არჩევანი %1$s დღისთვის</item>
+        <item quantity="other">დაიმახსოვრეთ არჩევანი %1$s დღისთვის</item>
+    </plurals>
+    <plurals name="hiad_reward_countdown">
+        <item quantity="one">%1$d წმ</item>
+        <item quantity="other">%1$d წმ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ახალი შეტყობინება</item>
+        <item quantity="other">%d ახალი შეტყობინება</item>
+    </plurals>
+</resources>
